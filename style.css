@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap');
+
+
+body{
+	font-size: 16px;
+	background-image: url(https://images.unsplash.com/photo-1607301406259-dfb186e15de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1511&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background: #;
+	color: white;
+	
+	font-family: 'Montagu Slab', serif;
+
+}
+						/*Header*/
+
+.header	{
+	position: absolute;
+	width: 1440px;
+	height: 1021px;
+	left: 0;
+	top: 0
+}
+.text{
+	position: relative;
+	width: 556px;
+	height: 85px;
+	left: -315px;
+	top: 229px;
+	font-family: Tinos;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	color: #808000;
+	-webkit-text-stroke: 0.5px #000;
+
+}
+.text h1{
+	position: relative;
+	left: -10%;
+	font-family: 'Comforter Brush', cursive;
+	font-size: 80px;
+	color: #808000;
+}
+.text h2{
+	position: relative;
+	left: 15px;
+	font-size: 40px;
+	font-family: 'Comforter Brush', cursive;
+
+
+}
+.text p{
+	position: relative;
+	left: 80px;
+	font-size: 25px;
+	color: #fff	;
+
+}
+.buton2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 25%;
+	width: 100px;
+	height: 70px;
+	color: ghostwhite;
+	background: #FF7400;
+	font-family: 'Comforter Brush', cursive;
+	line-height: -10px;
+	border-radius: 40px;
+	font-size: 25px;
+	transition: 0.2s;
+
+}
+.buton2:hover{
+	transform: scale(1.2);
+	color: greenyellow;
+	cursor: pointer;
+}
+							/*--->>>NAVBAR<<<---*/
+.navbar{
+	position: absolute;
+	width: 742px;
+	height: 64px;
+	left: 533px;
+	top: 55px;
+	
+}
+.navbar p {
+	cursor: pointer;
+}
+
+.p1{
+	position: absolute;
+	width: 131px;
+	height: 25px;
+	left: 592px;
+	top: -10px;
+	font-style: normal;
+	font-size: 15px;
+	color: #FFFFFF;
+
+}
+
+.p2{
+	position: absolute;
+	width: 131px;
+	height: 25px;
+	left: 592px;
+	top: 10px;
+	font-size: 14px;
+	line-height: 19px;
+
+}
+.fa-phone {
+	position: relative;
+	left: 566px;
+	top: 4px;
+	font-size: 14px;
+}
+.line{
+	position: relative;
+	left: 510px;
+	top: -5px;
+	width: 61px;
+	height: 0px;
+	border: 1px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+.p3{
+	position: absolute;
+	width: 131px;
+	height: 25px;
+	left: 452px;
+	top: -5px;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 19px;
+/*-webkit-text-stroke: 0.5px #000;*/
+
+}
+.p4{
+	position: absolute;
+	width: 131px;
+	height: 25px;
+	left: 352px;
+	top: -5px;
+	font-size: 24px;
+	line-height: 19px;
+}
+.p5{
+	position: absolute;
+	left: 252px;
+	width: 131px;
+	top: -5px;
+	font-size: 24px;
+	line-height: 19px;
+	font-weight: normal;
+
+}
+.p6{
+	position: absolute;
+	left: 50px;
+	width: 131px;
+	top: -5px;
+	color: orange;
+	font-size: 34px;
+	line-height: 1px;
+	font-weight: normal;
+	-webkit-text-stroke: 0.5px #000;
+}
+
+.buton1 {
+	background: #FF7400;
+	position: absolute;
+	width: 140px;
+	height: 25px;
+	text-align: center;
+	left: 800px;
+	top: 10px;
+	border-radius: 20px;
+	font-family: 'Comforter Brush', cursive;
+	padding: 10px 20px;
+	transition: 0.2s;
+	color: #000;
+
+}
+
+.buton1:hover{
+	/*transform: skew(10deg,-5deg);*/
+	color: #fff;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+	
+					/*--->>>LOGO*<<<---*/ 
+.geometry1{
+	position: absolute;
+	width: 48.06px;
+	height: 48.06px;
+	left: 197.04px;
+	top: 83.98px;
+	border: 3px solid #FF7400;
+	box-sizing: border-box;
+	transform: rotate(-45deg);
+	transition: 0.5s;
+}
+.geometry1:hover{
+	transform: rotate(45deg);
+}
+.geometry2{
+	position: absolute;
+	width: 48.06px;
+	height: 48.06px;
+	left: 165px;
+	top: 83.98px;
+	border: 3px solid #FF7400;
+	box-sizing: border-box;
+	transform: rotate(-45deg);
+	transition: 0.5s;
+}
+.geometry2:hover{
+	transform: rotate(45deg);
+}
+
+						/*--->FOOTER<---*/
+
+.footer{
+	
+	
+	width: 700px;
+	height: 200px;
+	margin: 1050px 500px;
+	
+	
+	
+}
+ul{
+	
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	margin: 40px auto;
+	color: white;
+	justify-content: space-around;
+}
+p{
+font-size: 13px;
+left: -200px;
+}
+
+ul:hover{
+	cursor: pointer;
+}
